@@ -1,4 +1,4 @@
-package src.ru.job4j;
+package src.ru.job4j.calculator;
 
 public class ArgMethod {
 
