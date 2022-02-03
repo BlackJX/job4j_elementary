@@ -1,4 +1,4 @@
-package src.ru.job4j.condition;
+package src.ru.job4j.main.condition;
 
 public class Greeting {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.ru.job4j.condition;
+package src.ru.job4j.main.condition;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {

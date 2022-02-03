@@ -1,4 +1,4 @@
-package ru.job4j;
+package src.ru.job4j.main;
 
 public class Main {
     public static void main(String[] args) {
