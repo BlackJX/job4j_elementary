@@ -6,7 +6,7 @@ import src.main.java.ru.job4j.main.condition.Point;
 
 public class PointTest {
     @Test
-    public void when00to20then2 () {
+    public void when00to20then2() {
         double expected = 2;
         int x1 = 0;
         int y1 = 0;
@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void when11to2020then26dot87 () {
+    public void when11to2020then26dot87() {
         double expected = 26.87;
         int x1 = 1;
         int y1 = 1;
@@ -28,7 +28,7 @@ public class PointTest {
     }
 
     @Test
-    public void when77to1414then9dot89 () {
+    public void when77to1414then9dot89() {
         double expected = 9.89;
         int x1 = 7;
         int y1 = 7;
@@ -39,7 +39,7 @@ public class PointTest {
     }
 
     @Test
-    public void when33to99then8dot48 () {
+    public void when33to99then8dot48() {
         double expected = 8.48;
         int x1 = 3;
         int y1 = 3;
