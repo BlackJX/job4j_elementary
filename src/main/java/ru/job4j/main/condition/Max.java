@@ -1,4 +1,4 @@
-package src.main.java.ru.job4j.main.converter;
+package src.main.java.ru.job4j.main.condition;
 
 public class Max {
     public static int max(int left, int right) {

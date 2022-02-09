@@ -1,8 +1,8 @@
-package src.main.java.ru.job4j.test.converter;
+package src.main.java.ru.job4j.test.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.main.java.ru.job4j.main.converter.Max;
+import src.main.java.ru.job4j.main.condition.Max;
 
 public class MaxTest {
 
