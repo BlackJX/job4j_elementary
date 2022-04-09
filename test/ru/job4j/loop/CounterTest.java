@@ -2,7 +2,7 @@ package test.ru.job4j.loop;
 
 import org.junit.Test;
 import org.junit.Assert;
-import src.ru.job4j.loop.Counter;
+import ru.job4j.loop.Counter;
 
 public class CounterTest {
 

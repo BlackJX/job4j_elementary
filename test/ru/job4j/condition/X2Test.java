@@ -2,7 +2,7 @@ package test.ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.ru.job4j.condition.X2;
+import ru.job4j.condition.X2;
 
 public class X2Test {
 

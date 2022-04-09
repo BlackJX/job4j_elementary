@@ -2,7 +2,7 @@ package test.ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.ru.job4j.condition.ChessBoard;
+import ru.job4j.condition.ChessBoard;
 
 public class ChessBoardTest {
     @Test

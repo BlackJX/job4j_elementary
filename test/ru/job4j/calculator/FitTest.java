@@ -2,7 +2,7 @@ package test.ru.job4j.calculator;
 
 import org.junit.Test;
 import org.junit.Assert;
-import src.ru.job4j.calculator.Fit;
+import ru.job4j.calculator.Fit;
 
 public class FitTest {
 

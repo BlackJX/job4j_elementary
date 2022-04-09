@@ -2,7 +2,7 @@ package test.ru.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.ru.job4j.loop.Fitness;
+import ru.job4j.loop.Fitness;
 
 public class FitnessTest {
 
