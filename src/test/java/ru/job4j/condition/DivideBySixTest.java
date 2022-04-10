@@ -1,4 +1,4 @@
-package test.ru.job4j.condition;
+package src.test.java.ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
