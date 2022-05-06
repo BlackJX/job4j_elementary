@@ -15,4 +15,16 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void whenHasMonoHorizontalFalse() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {'F', 'X', 'Y'},
+                {' ', ' ', ' '},
+        };
+        int row = 1;
+        boolean result = MatrixCheck.monoHorizontal(input, row);
+        Assert.assertFalse(result);
+    }
 }
