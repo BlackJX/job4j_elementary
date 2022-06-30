@@ -2,7 +2,6 @@ package ru.job4j.converter;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.converter.Converter;
 
 public class ConverterTest {
 
@@ -16,7 +15,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void  whenConvert140RblThen2dot3333Euro() {
+    public void  whenConvert140RblThen2dot3333Dollar() {
         float in = 140;
         float expected = 2.3333f;
         float out = Converter.rubleToDollar(in);
