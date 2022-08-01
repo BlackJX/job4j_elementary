@@ -6,8 +6,8 @@ public class ChessBoard {
         int rsl = 0;
         if (isValid(x1) && isValid(x2)
                 && isValid(y1) && isValid(y2)) {
-            if (Math.abs(x1 - x2) == Math.abs(y1 - y2)) {
-                rsl = Math.abs(x1 - x2);
+            if (abs(x1, x2) == abs(y1, y2)) {
+                rsl = abs(x1, x2);
             }
         }
         return rsl;
@@ -15,5 +15,9 @@ public class ChessBoard {
 
     private static boolean isValid(int coordinate) {
         return coordinate >= 0 && coordinate <= 7;
+    }
+
+    private  static  int abs(int c1, int c2) {
+        return Math.abs(c1 - c2);
     }
 }
