@@ -1,8 +1,7 @@
 package ru.job4j.condition;
 
-import org.junit.Test;
-import org.junit.Assert;
-import ru.job4j.condition.ThreeMax;
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ThreeMaxTest {
 
@@ -13,7 +12,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 10;
-        Assert.assertEquals(expected, result);
+        assertThat(result).isEqualTo(expected);
     }
 
     @Test
@@ -23,7 +22,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 50;
-        Assert.assertEquals(expected, result);
+        assertThat(result).isEqualTo(expected);
     }
 
     @Test
@@ -33,7 +32,7 @@ public class ThreeMaxTest {
         int third = 100;
         int result = ThreeMax.max(first, second, third);
         int expected = 100;
-        Assert.assertEquals(expected, result);
+        assertThat(result).isEqualTo(expected);
     }
 
     @Test
@@ -43,7 +42,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 1;
-        Assert.assertEquals(expected, result);
+        assertThat(result).isEqualTo(expected);
     }
 
     @Test
@@ -53,7 +52,7 @@ public class ThreeMaxTest {
         int third = 1;
         int result = ThreeMax.max(first, second, third);
         int expected = 10;
-        Assert.assertEquals(expected, result);
+        assertThat(result).isEqualTo(expected);
     }
 
     @Test
@@ -63,7 +62,7 @@ public class ThreeMaxTest {
         int third = 100;
         int result = ThreeMax.max(first, second, third);
         int expected = 100;
-        Assert.assertEquals(expected, result);
+        assertThat(result).isEqualTo(expected);
     }
 
     @Test
@@ -73,6 +72,6 @@ public class ThreeMaxTest {
         int third = 100;
         int result = ThreeMax.max(first, second, third);
         int expected = 100;
-        Assert.assertEquals(expected, result);
+        assertThat(result).isEqualTo(expected);
     }
 }
