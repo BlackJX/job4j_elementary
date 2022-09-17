@@ -1,15 +1,15 @@
 package ru.job4j.array;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ArrayCharTest {
     @Test
-    public void whenStarWithPrefixThenTrue() {
+    public void whenStartWithPrefixThenTrue() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] pref = {'H', 'e'};
         boolean result = ArrayChar.startsWith(word, pref);
-        Assert.assertTrue(result);
+        assertThat(result).isTrue();
     }
 
     @Test
@@ -17,6 +17,6 @@ public class ArrayCharTest {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] pref = {'H', 'i'};
         boolean result = ArrayChar.startsWith(word, pref);
-        Assert.assertFalse(result);
+        assertThat(result).isFalse();
     }
 }
