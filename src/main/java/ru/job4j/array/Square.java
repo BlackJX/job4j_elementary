@@ -1,18 +1,16 @@
 package ru.job4j.array;
 
-public class Square {
-    public static int[] calculate(int bound) {
-        int[] rst = new int[bound];
-        for (int index = 0; index < bound; index++) {
-            rst[index] = index * index;
-        }
-        return rst;
-    }
-
+public class Sequence {
     public static void main(String[] args) {
-        int[] array = calculate(4);
-        for (int index = 0; index < array.length; index++) {
-            System.out.println(array[index]);
-        }
+        int[][] array = new int[3][3];
+        array[0][0] = 1;
+        array[0][1] = 2;
+        array[0][2] = 3;
+        array[1][0] = 4;
+        array[1][1] = 5;
+        array[1][2] = 6;
+        array[2][0] = 7;
+        array[2][1] = 8;
+        array[2][2] = 9;
     }
 }
