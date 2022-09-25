@@ -5,14 +5,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixTest {
     @Test
-    public void when2to2() {
+    public void when2on2() {
         int size = 2;
         int[][] result = Matrix.multiple(size);
         int[][] expected = {
                 {1, 2},
                 {2, 4}
         };
-        assertThat(result).isEqualTo(expected);
+        assertThat(result).isDeepEqualTo(expected);
     }
 
     @Test
@@ -26,6 +26,6 @@ public class MatrixTest {
                 {4, 8, 12, 16, 20},
                 {5, 10, 15, 20, 25}
         };
-        assertThat(result).isEqualTo(expected);
+        assertThat(result).isDeepEqualTo(expected);
     }
 }
