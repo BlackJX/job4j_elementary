@@ -17,14 +17,27 @@ public class JavaNameValidator {
     }
 
     public static boolean isSpecialSymbol(int code) {
-        return code == 36 || code == 95;
+        if (code == 36 || code == 95) {
+            return true;
+        }
+        return false;
     }
 
     public static boolean isUpperLatinLetter(int code) {
-        return 65 <= code && code <= 90;
+        for (int i = 65; i <= 90; i++) {
+            if (code == i) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public static boolean isLowerLatinLetter(int code) {
-        return 97 <= code && code <= 122;
+        for (int i = 97; i <= 122; i++) {
+            if (code == i) {
+                return true;
+            }
+        }
+        return false;
     }
 }
